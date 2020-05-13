@@ -1,5 +1,5 @@
-#include "person.h"
-#include "functions.h"
+#include "person.hpp"
+#include "functions.hpp"
 #include <opencv2/opencv.hpp>
 
 Person::Person() : m_gender("None"), m_age("0-0")

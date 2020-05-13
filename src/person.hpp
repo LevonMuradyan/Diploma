@@ -3,6 +3,7 @@
 
 #include <vector>
 #include <string>
+
 class Person {
 private:
 	std::string m_age;
@@ -19,4 +20,4 @@ public:
 	void print_person(const Person& person) const;
 };
 
-#endif PERSON_HPP
+#endif // PERSON_HPP

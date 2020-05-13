@@ -2,15 +2,16 @@
 #include <opencv2/imgproc.hpp>
 #include <opencv2/highgui.hpp>
 #include <opencv2/dnn.hpp>
+#include <opencv2/core.hpp>
 #include <tuple>
 #include <iostream>
 #include <iterator>
 #include <iostream>
-#include<chrono>
-#include<random>
-#include<set>
-#include<cmath>
-#include "functions.h"
+#include <chrono>
+#include <random>
+#include <set>
+#include <cmath>
+#include "functions.hpp"
 #include <fstream>
 
 

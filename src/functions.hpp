@@ -3,7 +3,8 @@
 
 #include <tuple>
 #include <opencv2/opencv.hpp>
-#include "person.h"
+#include <opencv2/dnn.hpp>
+#include "person.hpp"
 
 std::tuple<cv::Mat, std::vector<std::vector<int>>> getFaceBox(cv::dnn::Net net,
 	cv::Mat& frame, double conf_threshold);

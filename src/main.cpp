@@ -1,13 +1,10 @@
 #include <iostream>
 #include <cstdlib>
-#include <windows.h>
-#include <shellapi.h>
 #include <fstream>
 #include <chrono>
 #include <string>
-#include "filters.h"
-#include "functions.h"
-#include "person.h"
+#include "functions.hpp"
+#include "person.hpp"
 #define max_links 100
 
 int main()
